@@ -27,7 +27,7 @@ Because Java does not have native, built in support for SQLite, the project requ
 
 1. Navigate to the Maven Central Repository in your web browser.
 2. Search for **`sqlite-jdbc`** (look for the package maintained by `org.xerial`).
-3. Go to the **Versions** tab, select the latest version (e.g., `3.46.1.0`), and download the compiled **`.jar`** file (do not download the source code zip).
+3. Go to the **Versions** tab, select the latest version (e.g., `3.53.4.0`), and download the compiled **`.jar`** file (do not download the source code zip).
 4. Create a folder named `lib` inside your project directory and move the downloaded `.jar` file into it.
 
 ---
@@ -65,20 +65,20 @@ Open your terminal, navigate to the root directory of the project, and compile t
 *Windows:*
 
 ```bash
-javac -cp ".;lib/sqlite-jdbc-3.46.1.0.jar" *.java
-java -cp ".;lib/sqlite-jdbc-3.46.1.0.jar" EMSApplication
+javac -cp ".;lib/sqlite-jdbc-3.53.4.0.jar" *.java
+java -cp ".;lib/sqlite-jdbc-3.53.4.0.jar" EMSApplication
 
 ```
 
 *Mac/Linux:*
 
 ```bash
-javac -cp ".:lib/sqlite-jdbc-3.46.1.0.jar" *.java
-java -cp ".:lib/sqlite-jdbc-3.46.1.0.jar" EMSApplication
+javac -cp ".:lib/sqlite-jdbc-3.53.4.0.jar" *.java
+java -cp ".:lib/sqlite-jdbc-3.53.4.0.jar" EMSApplication
 
 ```
 
-*(Note: Replace `3.46.1.0` with the exact version number you downloaded).*
+*(Note: Replace `3.53.4.0` with the exact version number you downloaded).*
 
 ---
 
